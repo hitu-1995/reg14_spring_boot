@@ -1,0 +1,30 @@
+package com.cjc.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class StudentController {
+
+	@RequestMapping("/greet")  // this annotation is use to make java method as a HTTP method
+	@ResponseBody
+	public String greet() {
+		return "Welcome To CJC Akurdi";
+	}
+	
+	@RequestMapping("/")
+	public String landingPage() {
+		return "index.jsp";
+	}
+	@RequestMapping("/loginPage")
+	public String loginPage() {
+		System.out.println("*********** loginPage :: called *****************");
+		return "login.jsp";
+	}
+	@RequestMapping("/")
+	public String loginCheck() {
+		
+	}
+
+}

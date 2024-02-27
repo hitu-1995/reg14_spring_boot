@@ -1,0 +1,7 @@
+1707131204092	Extract method 'insertAll'
+1707131622021	Extract method 'getAll'
+1707131855628	Extract method 'getAllByDepartnebt'
+1707132132212	Extract method 'getbyMobile'
+1707132677760	Extract method 'getDistinctbyDepartment'
+1707132861869	Extract method 'getAllBySalaryBetween'
+1707133112550	Extract method 'getAllLessThan'

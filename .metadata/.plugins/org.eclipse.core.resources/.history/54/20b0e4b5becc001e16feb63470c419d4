@@ -1,0 +1,23 @@
+package com.cjc.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cjc.model.Student;
+import com.cjc.repository.StudentRepository;
+
+@Service
+public class StudentIMPL implements StudentService{
+
+	@Autowired
+	private StudentRepository studentRepo;
+	
+	
+	@Override
+	public void saveStudent(Student student) {
+	
+		studentRepo.save(student);
+		
+	}
+
+}

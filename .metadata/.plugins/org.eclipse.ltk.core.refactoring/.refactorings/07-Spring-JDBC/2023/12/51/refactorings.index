@@ -1,0 +1,4 @@
+1703074458067	Extract method 'createTable'
+1703074850316	Extract method 'insertEmployee'
+1703076092445	Extract method 'selectEmployee'
+1703076254581	Extract method 'updateSalary'

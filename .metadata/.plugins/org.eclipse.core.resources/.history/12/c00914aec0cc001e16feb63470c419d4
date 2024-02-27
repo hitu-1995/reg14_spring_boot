@@ -1,0 +1,32 @@
+<%@page import="com.cjc.model.Student"%>
+<%@page import="java.util.List"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Welcome to Success Page</h1>
+<hr>
+ <%List<Student> stuList = (List<Student>) request.getAttribute("data"); %>
+ 
+   <table>
+      <thead>
+        <tr>
+           <th>Rollno</th>
+           <th>Name</th>
+           <th>Mobile</th>
+           <th>Email</th>
+           <th>Address</th>
+        </tr>
+      </thead>
+       <tbody>
+       
+       </tbody>
+   </table>
+  
+</body>
+</html>

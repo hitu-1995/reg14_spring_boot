@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="13-Spring-Boot-Data-JPA-3"/>
+<aop-project name="11-Spring-Boot-Data-JPA"/>
+<aop-project name="01-Spring-Fisrt-Project"/>
+<aop-project name="10-Spring-Boo-Demo-App"/>
+<aop-project name="15-Spring-Boot-MVC-Project"/>
+<aop-project name="04-Spring-IOC-Scopes"/>
+<aop-project name="05-Spring-IOC-Component"/>
+<aop-project name="09-Spring-IOC-Value-Annotation"/>
+<aop-project name="14-Spring-Boot-Mail-Sending"/>
+<aop-project name="02-Spring-IOC-DI"/>
+<aop-project name="03-Spring-IOC-Autowiring"/>
+<aop-project name="12-Spring-Boot-Data-JPA2"/>
+<aop-project name="06-Spring-IOC-Java-Based"/>
+</aop-reference-model>
